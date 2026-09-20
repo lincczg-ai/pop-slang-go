@@ -12,7 +12,7 @@ class PopSlangGoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pop Slang Go!',
+      title: '俚語大冒險',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFFF6B35)),

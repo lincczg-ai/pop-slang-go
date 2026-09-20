@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'gamification_logic.dart';
+import 'widgets/slang_card.dart';
 
 /// 《Pop Slang Go!》主頁面雛型
 /// 包含：
@@ -39,6 +40,13 @@ class HomeScreen extends StatelessWidget {
               _buildCoinCard(),
               const SizedBox(height: 24),
               _buildCalendarCard(daysInMonth),
+              const SizedBox(height: 24),
+              SlangCard(
+                onLearned: () {
+                  // TODO: 之後在這裡接「打卡」與「Pop Coins」
+                  debugPrint('學會了！');
+                },
+              ),
               const SizedBox(height: 28),
               _buildActionButtons(context),
             ],
