@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'gamification_logic.dart';
 
+
 void main() {
   runApp(const PopSlangGoApp());
 }
